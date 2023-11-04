@@ -9,7 +9,7 @@ const CountryCard = ({country}) => {
 
   return (
     <Link to={name}>
-        <div className="w-48 rounded" key={name} >
+        <div className="w-48 rounded shadow h-72" key={name} >
         <img src={flag} alt="img" className="w-full rounded"/>
         <div>
             <h4>{name}</h4>

@@ -26,7 +26,7 @@ const HomePg = () => {
     <div>
         <div className='flex flex-wrap justify-between px-10 align-middle'>
             <div>
-                <input type="text" placeholder='Search for a country' value={search} onChange={(e) => setSearch(e.target.value)}/>
+                <input type="text" placeholder='Search for a country' className='p-2 border-cyan-500 rounded' value={search} onChange={(e) => setSearch(e.target.value)}/>
             </div>
             <div>
                 <select value={regionCheck} onChange={(e) => setRegionCheck(e.target.value)}>
