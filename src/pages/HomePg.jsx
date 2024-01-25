@@ -23,7 +23,7 @@ const HomePg = () => {
 
 
   return (
-    <div className="container">
+    <div className="container pt-20">
       <div className="flex flex-wrap justify-between px-10 align-middle pt-5 pb-10">
         <div>
           <input

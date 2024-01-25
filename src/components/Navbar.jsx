@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="flex px-8 bg-[#f1f1f1] dark:bg-[#1f2937]  flex shadow-xl py-4 flex-row justify-between align-middle">
+    <div className="flex px-8 bg-[#f1f1f1] dark:bg-[#1f2937]  flex shadow-xl py-4 flex-row justify-between align-middle z-20 fixed w-full">
       <div>
         <h3 className="font-[600] text-xl">Where in the world?</h3>
       </div>
